@@ -3,6 +3,8 @@
 /*This is thermite's CSS. It is intended for grey and red colorschemes.*/
 /*This CSS is just a modified version of vosh's CSS, so he should get most of the credit.*/
 
+/* orange color = #E67A24 */
+
 /*Scrollbars*/
 
 notificationbox {
@@ -128,16 +130,19 @@ background:#252627!important;
 
 /* URL BAR */
 #urlbar
+/* green color: #39B07B */
+/* orange color: #DF8944 */
+
 {
     background:#252627!important;
     border:0!important;
     border-right:1px solid #828282!important;
-    color:#B94343!important;
+    color:#39B07B!important;
     -moz-appearance: none !important;
 }
 #urlbar:hover
 {
-    color:#C62020!important;
+    color:#349469!important;
     /*#D53131 (red)*/
     /*#5acbbe */
 }
@@ -193,7 +198,7 @@ background:#252627!important;
 #main-window #tabbrowser-tabs tab[selected]
 {
 background:#252627!important;
-    color:#B94343!important;
+    color:#39B07B!important;
 }
 #main-window #tabbrowser-tabs tab .tab-throbber,
 #main-window #tabbrowser-tabs tab .tab-icon-image
@@ -208,7 +213,7 @@ background:#252627!important;
 }
 #main-window #tabbrowser-tabs tab:not([selected]):hover
 {
-    color:#B94343!important;
+    color:#39B07B!important;
 }
 #main-window #tabbrowser-tabs tab[fadein]:not([pinned])
 {
