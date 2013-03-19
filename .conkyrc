@@ -1,0 +1,7 @@
+out_to_x no
+out_to_console yes
+update_interval 1.0
+total_run_times 0
+use_spacer none
+TEXT
+Now Playing: $mpd_artist - $mpd_title       Up: ${uptime_short} | CPU: ${cpu}% | RAM: $memperc% | Temp: ${acpitemp}C | FS: ${fs_used /}/${fs_size /} | D: ${downspeedf wlo1} U: ${upspeedf wlo1} | Bat: ${battery_short} | Volume: ${exec amixer get Master | egrep -o "[0-9]+%" | head -1 | egrep -o "[0-9]*"}%
