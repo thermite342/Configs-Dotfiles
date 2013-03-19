@@ -1,7 +1,8 @@
 Configs-Dotfiles
 ================
-NOTE: Most of the files in this repository were not created by myself, and are hosted here for linking purposes.
+This is a collection of all of the different dotfiles I have accrued over time. 
+The same installation steps go for most of these dotfiles:
+1. rename to the appropiate name
+2. put it in ~/ or the specified folder
 
-Here is a list of original/modified files:
-theme.lua
-rc.lua
+Happy hacking.
