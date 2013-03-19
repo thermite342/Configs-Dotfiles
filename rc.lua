@@ -22,7 +22,7 @@ if awesome.startup_errors then
                      title = "Oops, there were errors during startup!",
                      text = awesome.startup_errors })
 end
-
+---
 -- Handle runtime errors after startup
 do
     local in_error = false
