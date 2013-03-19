@@ -33,8 +33,8 @@ visualizer_fifo_path = "/tmp/mpd.fifo"
     visualizer_sync_interval = "3000"
     visualizer_type = "spectrum" (spectrum/wave)
     visualizer_in_stereo = "yes"
-    visualizer_color = "green"
-    visualizer_look = "●▋"
+    visualizer_color = "blue"
+    visualizer_look = "▌▌"
 
 ## - 0 - default window color
 ## - 1 - black
@@ -49,20 +49,20 @@ visualizer_fifo_path = "/tmp/mpd.fifo"
 
 ##### song format #####
 
-song_list_format = " $8%l$9 $3%a$9 $8»$9$3»$9 $8%b$9 $3»$9$8»$9 $3%t$9"
+song_list_format = " $8%l$9 $5%a$9 $8»$9$5»$9 $8%b$9 $5»$9$8»$9 $5%t$9"
 song_library_format = "{%n - }{%t}|{%f}"
 media_library_album_format = "{(%y) }%b"
 tag_editor_album_format = "{(%y) }%b"
-browser_playlist_prefix = "$3playlist$9 "
+browser_playlist_prefix = "$5playlist$9 "
 selected_item_prefix = "$6"
 selected_item_suffix = "$9"
 now_playing_prefix = "$9"
 now_playing_suffix = " $8♫$9"
 song_status_format = "{(%l) }{%a - }{%t}|{%f}"
-song_columns_list_format = "(28)[green]{a} (40)[white]{b} (40)[white]{t}"
+song_columns_list_format = "(28)[blue]{a} (40)[white]{b} (40)[white]{t}"
 song_window_title_format = "{%a - }{%t}|{%f}"
-alternative_header_second_line_format = "$3{%a} - $9{%b} $9{(%y)}"
-alternative_header_first_line_format = "{$3╶─┤ {%t} ├─╴}"
+alternative_header_second_line_format = "$5{%a} - $9{%b} $9{(%y)}"
+alternative_header_first_line_format = "{$5╶─┤ {%t} ├─╴}"
 
 ##### various settings #####
 
@@ -88,7 +88,8 @@ display_screens_numbers_on_start = "yes"
 clock_display_seconds = "yes"
 enable_window_title = "no"
 user_interface = "classic"
-progressbar_look = "─━╴"
+#progressbar_look = "⎯»⎯"
+progressbar_look = "⎯▪⎯"
 
 # Colors
 
@@ -96,14 +97,14 @@ colors_enabled = "yes"
 main_window_color = "white"
 main_window_highlight_color = "white"
 header_window_color = "white"
-volume_color = "green"
+volume_color = "blue"
 progressbar_color = "white"
-statusbar_color = "green"
-color1 = "green"
-color2 = "green"
-active_column_color = "green"
+statusbar_color = "blue"
+color1 = "blue"
+color2 = "blue"
+active_column_color = "blue"
 active_window_border = "white"
-visualizer_color = "green"
+visualizer_color = "blue"
 
 # Configuration
 
